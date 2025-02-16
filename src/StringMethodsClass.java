@@ -19,6 +19,9 @@ public class StringMethodsClass {
         //sentence = sentence.trim();
         //sentence = sentence.replace("o", "i"); // Man, that is si ciil
 
+        // sentence.equals(sentences2) -- compares values of variables
+        // sentence == sentence2 -- compares memory addresses of variables
+
         System.out.println(sentence);
 
         if (sentence.isEmpty())
