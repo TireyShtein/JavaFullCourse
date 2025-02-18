@@ -31,8 +31,4 @@ public class TimerTaskClass {
     //  TimerTask - task, delay (ms), period (ms)
         timer.schedule(task, 1000, 3000); // Print text after 1 sec every 3 seconds
     }
-
-
-
-
 }
