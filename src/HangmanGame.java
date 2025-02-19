@@ -9,7 +9,7 @@ public class HangmanGame {
 
         // JAVA HANGMAN GAME
 
-        String filePath = "D:\\1Programming\\Java Projects\\JavaFullCourse\\src\\words.txt";
+        String filePath = "src\\words.txt";
         ArrayList<String> words = new ArrayList<>();
         String word;
 
@@ -69,6 +69,7 @@ public class HangmanGame {
                 if (!wordState.contains('_')){
                     System.out.println(getHangmanArt(wrongGuesses));
                     System.out.println("YOU WIN!");
+                    System.out.println("The word is: " + word);
                     break;
                 }
             }
